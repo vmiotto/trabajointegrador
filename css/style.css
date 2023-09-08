@@ -29,17 +29,25 @@ header {
 }
 
 
-header form {
+.formh {
    
-    top: 100px;
-    right: 20px;
-
-}
-.nav{
-    display: flex;
-    justify-content: center;
+  float: right; 
+   margin-right: 10px; 
     
 }
+
+.nav{
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(157, 46, 46) ; 
+  
+}
+
+   
+
 nav ul {
     list-style: none;
     display: flex;
@@ -51,13 +59,11 @@ nav ul {
 }
 
 nav ul li {
-    background-color: rgb(233, 84, 9); 
-    color: white; 
     padding: 10px; 
     border: 2px solid black; 
     border-radius: 5px;
     text-align: center;
-    margin: 0 100px 0 100px;
+    margin: 0 30px 0 30px;
 }
 .nav a {
     color: black;
