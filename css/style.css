@@ -118,10 +118,10 @@ img {
 .imgpelicula{
     display: flex;
     align-items: center;
-}
-.h2calificacion{
-    background-color: none;
-    
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-left: 35%;
 }
 
 
