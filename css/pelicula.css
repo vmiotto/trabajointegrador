@@ -1,15 +1,10 @@
-
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url(../imagenes/backgroundimg.jpeg);
+body { background-image: url(../imagenes/rapidosyfuriososfondo2.jpeg);
+    
 }
-
-
 header {
     background-image: url(../imagenes/header.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: cover;
     text-align: center;
     padding: 100px ;
 }
@@ -81,7 +76,7 @@ ul article {
 }
 
 footer {
-    background-image: url('ruta-de-tu-imagen.jpg'); 
+    background-image: url(); 
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -118,8 +113,6 @@ img {
     border-radius: 5px;
     font-weight: bold;
 }
-
-
 
 .imgpelicula{
     display: flex;
@@ -159,10 +152,8 @@ img {
     text-align: center;
     font-size: 35px;
 }
-
-
-
-
-
-
-
+.h2agregarafavoritos{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
