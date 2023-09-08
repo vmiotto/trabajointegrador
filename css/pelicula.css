@@ -1,4 +1,7 @@
-body { background-image: url(../imagenes/rapidosyfuriososfondo2.jpeg);
+body { 
+    background-image: url(../imagenes/backgroundimg.jpeg)
+  
+
     
 }
 header {
@@ -7,6 +10,7 @@ header {
     background-position: cover;
     text-align: center;
     padding: 100px ;
+    
 }
 .nombrepagina{
     text-align: center;
