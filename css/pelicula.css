@@ -1,10 +1,12 @@
-body { background-image: url(../imagenes/rapidosyfuriososfondo2.jpeg);
-    
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/backgroundimg.jpeg);
 }
 header {
     background-image: url(../imagenes/header.jpeg);
     background-size: cover;
-    background-position: cover;
+    background-position: center;
     text-align: center;
     padding: 100px ;
 }
@@ -19,22 +21,33 @@ header {
 .header div img {
     display: block;
     margin-left: 45%;
-    max-width: 100%;
+    max-width: 10%;
     height:max-content;
 }
 
 
-header form {
+.formh {
    
-    top: 100px;
-    right: 20px;
-
-}
-.nav{
-    display: flex;
-    justify-content: center;
+    float: right; 
+    margin-right: 10px;
     
 }
+
+.nav{
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:black ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+   
+
 nav ul {
     list-style: none;
     display: flex;
@@ -46,26 +59,14 @@ nav ul {
 }
 
 nav ul li {
-    background-color: rgb(233, 84, 9); 
-    color: white; 
     padding: 10px; 
-    border: 2px solid black; 
-    border-radius: 5px;
     text-align: center;
-    margin: 0 100px 0 100px;
+    margin: 0 30px 0 30px;
 }
 .nav a {
-    color: black;
+    color: orange;
     text-decoration: none;
-}
-
-.h2h {
-    text-align: center;
-    background-color: orange; 
-    color: black; 
-    padding: 10px; 
-    margin: 40px; 
-    border: solid 3px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -73,6 +74,41 @@ ul article {
     text-align: center;
     margin: 20px;
     
+}
+
+.peliculadetallada {
+	min-height: 700px;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../imagenes/ryf.jpeg);
+	background-size:cover;
+	background-position: fixed;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.contenedor {
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+h1{
+	font-weight: 600;
+	font-size:700%;
+	margin-bottom: 150px
+}
+.agregarafavoritos{
+    background-color: red;
+    color: black; 
+    font-size: 20px; 
+    padding: 15px 20px; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: flex-start;
+    align-items:normal;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
 }
 
 footer {
@@ -83,77 +119,14 @@ footer {
     padding: 50px 0; 
     color: #fff; 
 }
-img {
-    width: 200px;
-    height: 300px;
-}
-.movie-item {
-    color: white;
-    flex-direction: row;
-    display: inline-block;
-    margin-right: 20px; 
-    vertical-align: top; 
-    width: 230px; 
-    text-align: center; 
-
-}
-.series-item {
-    color: white;
-    display: inline-block;
-    margin-right: 20px; 
-    vertical-align: top; 
-    width: 230px; 
-    text-align: center; 
-}
-.titulos{
-    background-color: orange; 
+h2 {
     color: black;
-    padding: 10px; 
-    border: 2px solid black;
-    border-radius: 5px;
-    font-weight: bold;
-}
+    background-color: orange;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 290px ;
+    margin-right: 290px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 30px;
 
-.imgpelicula{
-    display: flex;
-    align-items: center;
-    display: block;
-    width: 400px;
-    height: 400px;
-    margin-left: 36%;
-}
-.h1nombre{
-    color: white;
-    text-align: center;
-    font-size:50px;
-}
-.h2calificacion{
-    color: white;
-   text-align: center;
-   font-size: 35px;    
-}
-.h2fechadeestreno{
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.h2duracion{
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.h2sinopsis{
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.h2genero{
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.h2agregarafavoritos{
-    color: white;
-    text-align: center;
-    font-size: 35px;
 }
