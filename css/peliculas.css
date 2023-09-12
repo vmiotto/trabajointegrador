@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(../imagenes/backgroundimg.jpeg);
+    
 }
 
 
@@ -79,6 +80,8 @@ nav ul li {
     margin: 40px; 
 
 }
+
+
 ul article {
     text-align: center;
     margin: 20px;
@@ -111,18 +114,11 @@ img {
     text-align: center; 
 
 }
-.series-item {
-    color: white;
-    display: inline-block;
-    margin-right: 20px; 
-    vertical-align: top; 
-    width: 230px; 
-    text-align: center; }
-h1{
-    background-color: orange;
-    font-size: 45px;
-    border-radius: 7px;
-    margin-left: 20px;
-    margin-right: 480px;
-
+.titulos{
+    background-color: orange; 
+    color: black;
+    padding: 10px; 
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
 }
