@@ -100,6 +100,10 @@ img {
     width: 200px;
     height: 300px;
 }
+ img:hover{
+    width: 210px;
+    height: 310px;
+}
 .movie-item {
     color: white;
     flex-direction: row;
