@@ -125,7 +125,22 @@ img {
     border-radius: 5px;
     font-weight: bold;
 }
-.h2accion{
+.h1generos{
     text-align: center;
-    color: white;
+    color:black;
+    font-size: 45px;
+    background-color: orange;
+    border: solid 3px black;
+}
+
+.genero-item{
+    color:black;
+    flex-direction: row;
+    display: inline-block;
+    margin-right: 20px; 
+    vertical-align: top; 
+    width: 230px; 
+    text-align: center; 
+    background-color: orange;
+    border: solid black 3px;
 }
