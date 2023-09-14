@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/peliculas.css">  
+</head>
+<body>
+    <header class="header">
+
+        <nav class="nav">
+            <ul>
+                <li><a href="./home.html">Inicio</a></li>
+                <li><a href="peliculas.html">Películas</a></li>
+                <li><a href="series.html">Series</a></li>
+                <li><a href="generos.html">Generos</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+               
+            </ul>
+            <form class="formh"  action="busqueda.php" method="GET">
+                <input type="text" name="busqueda" placeholder="Buscar...">
+                <button type="submit" formaction="./resultadodebusqueda.html">Buscar</button>
+            </form>
+        </nav>
+        <div class="logo">
+            <img src="../imagenes/logo.webp" alt="Logo">
+        </div>
+        <h1 class="nombrepagina"> Sky Stream</h1>
+    </header>
+    <section>
+        <h2 class="h2h" class="section-title">Películas</h2>
+        <ul class="movie-list">
+            <article class="movie-item">
+                <p class="titulos">Rapidos y Furiosos X</p>
+                <a href="detail-movie.html"><img src="../imagenes/rapidosyfuriososportada.jpeg" alt=""></a>
+                <p>2023</p>
+            </article>
+            <article class="movie-item">
+                <p class="titulos">El Lobo De Wallstreet</p>
+                <a href="detail-movie.html"><img src="../imagenes/ellobodewallstreet.webp" alt=""></a>
+                <p>2013</p>
+            </article>
+            <article class="movie-item">
+                <p class="titulos">Batman</p>
+                <a href="detail-movie.html"><img src="../imagenes/batman.webp" alt=""></a>
+                <p>1992</p>
+            </article>
+            <article class="movie-item">
+                <p class="titulos">Thor</p>
+                <a href="detail-movie.html"><img src="../imagenes/thor.jpeg" alt=""></a>
+                <p>2011</p>
+            </article>
+            <article class="movie-item">
+                <p class="titulos">Que paso ayer?</p>
+                <a href="detail-movie.html"><img src="../imagenes/que paso ayer.webp" alt=""></a>
+                <p>2009</p>
+            </article>
+        </ul>
+    </section>
+    <footer class="footer">
+        <p>Valentino Miotto, Luca Dell Avo, Bruno Campana</p>
+    </footer>
+</body>
+</html>

@@ -1,17 +1,15 @@
-
 body {
     margin: 0;
     padding: 0;
     background-image: url(../imagenes/backgroundimg.jpeg);
 }
-
-
 header {
     background-image: url(../imagenes/header.jpeg);
     background-size: cover;
     background-position: center;
     text-align: center;
     padding: 100px ;
+    
 }
 .nombrepagina{
     text-align: center;
@@ -24,7 +22,7 @@ header {
 .header div img {
     display: block;
     margin-left: 45%;
-    max-width: 100%;
+    max-width: 10%;
     height:max-content;
 }
 
@@ -72,15 +70,6 @@ nav ul li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.h2h {
-    text-align: center;
-    background-color: orange; 
-    color: black; 
-    padding: 10px; 
-    margin: 40px; 
-
-}
-
 
 ul article {
     text-align: center;
@@ -88,45 +77,57 @@ ul article {
     
 }
 
+.peliculadetallada {
+	min-height: 700px;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../imagenes/ryf.jpeg);
+	background-size:cover;
+	background-position: fixed;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.contenedor {
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+h1{
+	font-weight: 600;
+	font-size:700%;
+	margin-bottom: 150px
+}
+.agregarafavoritos{
+    background-color: red;
+    color: black; 
+    font-size: 20px; 
+    padding: 15px 20px; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: flex-start;
+    align-items:normal;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+}
+
 footer {
-    background-image: url('ruta-de-tu-imagen.jpg'); 
+    background-image: url(); 
     background-size: cover;
     background-position: center;
     text-align: center;
     padding: 50px 0; 
     color: #fff; 
 }
-img {
-    width: 200px;
-    height: 300px;
-}
- img:hover{
-    width: 210px;
-    height: 310px;
-}
-.movie-item {
-    color: white;
-    flex-direction: row;
-    display: inline-block;
-    margin-right: 20px; 
-    vertical-align: top; 
-    width: 230px; 
-    text-align: center; 
-
-}
-.series-item {
-    color: white;
-    display: inline-block;
-    margin-right: 20px; 
-    vertical-align: top; 
-    width: 230px; 
-    text-align: center; 
-}
-.titulos{
-    background-color: orange; 
+h2 {
     color: black;
-    padding: 10px; 
-    border: 2px solid black;
-    border-radius: 5px;
-    font-weight: bold;
+    background-color: orange;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 290px ;
+    margin-right: 290px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 30px;
+
 }

@@ -1,8 +1,8 @@
-
 body {
     margin: 0;
     padding: 0;
     background-image: url(../imagenes/backgroundimg.jpeg);
+    
 }
 
 
@@ -113,14 +113,6 @@ img {
     width: 230px; 
     text-align: center; 
 
-}
-.series-item {
-    color: white;
-    display: inline-block;
-    margin-right: 20px; 
-    vertical-align: top; 
-    width: 230px; 
-    text-align: center; 
 }
 .titulos{
     background-color: orange; 

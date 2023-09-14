@@ -1,10 +1,14 @@
-body { background-image: url(../imagenes/rapidosyfuriososfondo2.jpeg);
-    
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/backgroundimg.jpeg);
 }
+
+
 header {
     background-image: url(../imagenes/header.jpeg);
     background-size: cover;
-    background-position: cover;
+    background-position: center;
     text-align: center;
     padding: 100px ;
 }
@@ -24,17 +28,28 @@ header {
 }
 
 
-header form {
+.formh {
    
-    top: 100px;
-    right: 20px;
-
-}
-.nav{
-    display: flex;
-    justify-content: center;
+    float: right; 
+    margin-right: 10px;
     
 }
+
+.nav{
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:black ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+   
+
 nav ul {
     list-style: none;
     display: flex;
@@ -46,17 +61,14 @@ nav ul {
 }
 
 nav ul li {
-    background-color: rgb(233, 84, 9); 
-    color: white; 
     padding: 10px; 
-    border: 2px solid black; 
-    border-radius: 5px;
     text-align: center;
-    margin: 0 100px 0 100px;
+    margin: 0 30px 0 30px;
 }
 .nav a {
-    color: black;
+    color: orange;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h2h {
@@ -65,7 +77,7 @@ nav ul li {
     color: black; 
     padding: 10px; 
     margin: 40px; 
-    border: solid 3px;
+
 }
 
 
@@ -76,7 +88,7 @@ ul article {
 }
 
 footer {
-    background-image: url(); 
+    background-image: url('ruta-de-tu-imagen.jpg'); 
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -112,48 +124,4 @@ img {
     border: 2px solid black;
     border-radius: 5px;
     font-weight: bold;
-}
-
-.imgpelicula{
-    display: flex;
-    align-items: center;
-    display: block;
-    width: 400px;
-    height: 400px;
-    margin-left: 36%;
-}
-.h1nombre{
-    color: white;
-    text-align: center;
-    font-size:50px;
-}
-.h2calificacion{
-    color: white;
-   text-align: center;
-   font-size: 35px;    
-}
-.h2fechadeestreno{
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.h2duracion{
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.h2sinopsis{
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.h2genero{
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.h2agregarafavoritos{
-    color: white;
-    text-align: center;
-    font-size: 35px;
 }

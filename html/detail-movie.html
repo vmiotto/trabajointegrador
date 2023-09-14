@@ -4,32 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rapidos y Furiosos X</title>
-    <link rel="stylesheet" href="../css/pelicula.css">
+    <link rel="stylesheet" href="../css/detail-movie.css">
 </head>
 <header class="header">
+
+    <nav class="nav">
+        <ul>
+            <li><a href="./home.html">Inicio</a></li>
+            <li><a href="peliculas.html">Películas</a></li>
+            <li><a href="series.html">Series</a></li>
+            <li><a href="generos.html">Generos</a></li>
+            <li><a href="favoritos.html">Favoritos</a></li>
+           
+        </ul>
+        <form class="formh"  action="busqueda.php" method="GET">
+            <input type="text" name="busqueda" placeholder="Buscar...">
+            <button type="submit"formaction="./resultadodebusqueda.html">Buscar</button>
+        </form>
+    </nav>
     <div class="logo">
         <img src="../imagenes/logo.webp" alt="Logo">
     </div>
-    <form class="search-form" action="busqueda.php" method="GET">
-        <input type="text" name="busqueda" placeholder="Buscar...">
-        <button type="submit">Buscar</button>
-    </form>
-    <nav class="nav">
-        <ul>
-            <li><a href="../html/home.html">Inicio</a></li>
-            <li><a href="">Películas</a></li>
-            <li><a href="">Series</a></li>
-        </ul>
-    </nav>
 </header>
+<div class="peliculadetallada">
+    <h1>Rapidos Y Furiosos X</h1>
+    <button class="agregarafavoritos">Agregar a Favoritos</button>
+</div>
 <body class="bodypelicula">
 
-    <h1 class="h1nombre"> Rapidos Y Furiosos X</h1>
-    <h2 class="h2calificacion"> Calificacion: 3,6 </h2>
+    <h2 class="h2calificacion"> Calificacion: 3,6 ★★★☆☆ </h2>
     <h2 class="h2fechadeestreno">Fecha de estreno: 19 de Mayo del 2023 </h2>
     <h2 class="h2duracion"> Duracion: 2h 21m </h2>
     <h2 class="h2sinopsis"> Sinopsis: <br>Abróchate los cinturones de seguridad: se acerca el final del camino.</h2>
-    <h2 class="h2genero">Pelicula de <a href="">Accion</a></h2>
+    <h2 class="h2genero">Pelicula de <a href="generos.html">Accion</a></h2>
     <h2 class="h2agregarafavoritos">Agregar a favoritos</h2>
+
 </body>
+<footer class="footer">
+    <p>Valentino Miotto, Luca Dell Avo, Bruno Campana</p>
+</footer>
 </html>
