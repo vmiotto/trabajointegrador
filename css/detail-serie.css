@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(../imagenes/backgroundimg.jpeg);
+    font-family: 'Cabin Condensed', sans-serif;
 }
 
 header {
@@ -102,7 +103,7 @@ h2 {
     font-size: 35px;
     margin-left: 290px ;
     margin-right: 290px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Cabin Condensed', sans-serif;
     border-radius: 30px;
 
 }

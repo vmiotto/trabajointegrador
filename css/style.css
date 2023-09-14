@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(../imagenes/backgroundimg.jpeg);
+    font-family: 'Russo One', sans-serif;
 }
 
 
@@ -12,11 +13,12 @@ header {
     background-position: center;
     text-align: center;
     padding: 100px ;
+    
 }
 .nombrepagina{
     text-align: center;
     font-weight: bold;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Cabin Condensed', sans-serif;
     font-size:70px;
 
 }
