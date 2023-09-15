@@ -115,3 +115,63 @@ footer {
     padding: 50px 0; 
     color: #fff; 
 }
+@media (max-width: 420px) {
+    header {
+
+        background-image: url(../imagenes/header.jpeg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 0 ;
+        
+    }
+    .nav{
+        position: static;
+        margin-bottom: 10px;
+    }
+    .nombrepagina {
+        font-size: 40px; 
+    }
+    .header div img {
+        margin-left: 37%; 
+        max-width: 35%; 
+
+    }
+    .formh {
+        float: none; 
+        margin-right: 0;
+        margin-top: 10px; 
+    }
+    .nav ul {
+        flex-direction: row; 
+        align-items: center; 
+    }
+    .nav ul li {
+        margin: 10px 0; 
+    }
+    .h2h {
+        font-size: 24px; 
+        margin: 20px 0; 
+    }
+    ul article {
+        margin: 20px 0; 
+    }
+    img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .movie-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+    .series-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+}
+
