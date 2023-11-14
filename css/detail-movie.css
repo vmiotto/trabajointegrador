@@ -81,7 +81,6 @@ ul article {
 .peliculadetallada {
 	min-height: 700px;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../imagenes/ryf.jpeg);
 	background-size:cover;
 	background-position: fixed;
 	margin-bottom: 3.12em;
