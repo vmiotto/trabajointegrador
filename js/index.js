@@ -32,7 +32,7 @@ fetch (`https://api.themoviedb.org/3/tv/popular?api_key=${apikey}`)
     for (let i = 0; i < 5 ; i ++){
         ul.innerHTML += `                <article class="movie-item">
         <p class="titulos"> ${data.results[i].name}</p>
-        <a href="detail-movie.html?id=${data.results[i].id}"><img src="https://image.tmdb.org/t/p/original${data.results[i].poster_path}" alt=""></a>
+        <a href="detail-serie.html?id=${data.results[i].id}"><img src="https://image.tmdb.org/t/p/original${data.results[i].poster_path}" alt=""></a>
         <p>${data.results[i].first_air_date}</p>
         </article>`
     }
