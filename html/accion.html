@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/peliculas.css">  
+    <title>Accion</title>
+    <link rel="stylesheet" href="../css/accion.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-
+    
         <nav class="nav">
             <ul>
                 <li><a href="./home.html">Inicio</a></li>
@@ -28,7 +28,7 @@
                     <option value="series">Series</option>
                     <option value="peliculas">Peliculas</option>
                 </select>
-                <button type="submit" formaction="./resultadodebusqueda.html">Buscar</button>
+                <button type="submit"formaction="./resultadodebusqueda.html">Buscar</button>
             </form>
         </nav>
         <div class="logo">
@@ -36,14 +36,7 @@
         </div>
         <h1 class="nombrepagina"> Sky Stream</h1>
     </header>
-    <section>
-        <h2 class="h2h" class="section-title">Películas</h2>
         <ul class="movie-list">
-            <article class="movie-item">
-                <p class="titulos">Rapidos y Furiosos X</p>
-                <a href="detail-movie.html"><img src="../imagenes/rapidosyfuriososportada.jpeg" alt=""></a>
-                <p>2023</p>
-            </article>
             <article class="movie-item">
                 <p class="titulos">El Lobo De Wallstreet</p>
                 <a href="detail-movie.html"><img src="../imagenes/ellobodewallstreet.webp" alt=""></a>
@@ -55,21 +48,25 @@
                 <p>1992</p>
             </article>
             <article class="movie-item">
-                <p class="titulos">Thor</p>
+             <p class="titulos">Thor</p>
                 <a href="detail-movie.html"><img src="../imagenes/thor.jpeg" alt=""></a>
-                <p>2011</p>
+             <p>2011</p>
             </article>
-            <article class="movie-item">
-                <p class="titulos">Que paso ayer?</p>
-                <a href="detail-movie.html"><img src="../imagenes/que paso ayer.webp" alt=""></a>
-                <p>2009</p>
+            <article class="series-item">
+                <p class="titulos">Vikings</p>
+                <a href="detail-serie.html"><img src="../imagenes/vikings.jpeg" alt=""></a>
+                <p>2017</p>
+            </article>
+            <article class="series-item">
+                <p class="titulos">Lucifer</p>
+                <a href="detail-serie.html"><img src="../imagenes/lucifer.jpeg" alt=""></a>
+                <p>2016</p>
             </article>
         </ul>
-    </section>
-    <footer class="footer">
-        <p>Valentino Miotto, Luca Dell Avo, Bruno Campana</p>
-        <img src="../imagenes/blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg" alt="">
-    </footer>
-
+        <footer class="footer">
+            <p>Valentino Miotto, Luca Dell Avo, Bruno Campana</p>
+            <img src="../imagenes/blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg" alt="">
+        </footer>
+        <script src="../js/search-results.js"></script>
 </body>
 </html>
