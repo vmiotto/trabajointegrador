@@ -14,8 +14,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=${apikey}`)
         <p>${data.results[i].release_date}</p>
         </article>`
     }
-
-
+    
 })
 .catch(function(error){
     console.log(error)
